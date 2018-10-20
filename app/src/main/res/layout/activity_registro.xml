@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registro">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Registro de Usuario"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:text="Nombre de usuario"
+    android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Nombre Completo"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Correo Electrónico"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/texto3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Contraseña"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/texto4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:text="Registrar"
+
+
+        />
+
+
+</LinearLayout>

@@ -58,11 +58,14 @@
     <EditText
         android:id="@+id/texto4"
         android:layout_width="match_parent"
-        android:layout_height="60dp" />
+        android:layout_height="60dp"
+        android:inputType="textPassword"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:onClick="callRegister"
+
         android:layout_marginTop="50dp"
         android:text="Registrar"
 
